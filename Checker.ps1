@@ -123,14 +123,14 @@ if ((Read-Host "`n`n`nThis program requires 1GB of free disk space on your Syste
         [System.IO.Compression.ZipFile]::ExtractToDirectory($ZipFilePath, $DestinationPath)
     }
     $files = @(
-        @{url = "https://github.com/Brevzor/SecurityCheck/releases/download/v1.3.3.7/strings2.exe"; path = "C:\temp\dump\strings2.exe" }
-        @{url = "https://github.com/Brevzor/SecurityCheck/releases/download/v1.3.3.7/esedatabaseview.zip"; path = "C:\temp\dump\esedatabaseview.zip" }
-        @{url = "https://github.com/Brevzor/SecurityCheck/releases/download/v1.3.3.7/PECmd.zip"; path = "C:\temp\dump\PECmd.zip" }
-        @{url = "https://github.com/Brevzor/SecurityCheck/releases/download/v1.3.3.7/EvtxECmd.zip"; path = "C:\temp\dump\EvtxECmd.zip" }
-        @{url = "https://github.com/Brevzor/SecurityCheck/releases/download/v1.3.3.7/WxTCmd.zip"; path = "C:\temp\dump\WxTCmd.zip" }
-        @{url = "https://github.com/Brevzor/SecurityCheck/releases/download/v1.3.3.7/SBECmd.zip"; path = "C:\temp\dump\SBECmd.zip" }
-        @{url = "https://github.com/Brevzor/SecurityCheck/releases/download/v1.3.3.7/RECmd.zip"; path = "C:\temp\dump\RECmd.zip" }
-        @{url = "https://github.com/Brevzor/SecurityCheck/releases/download/v1.3.3.7/AppCompatCacheParser.zip"; path = "C:\temp\dump\AppCompatCacheParser.zip" }
+        @{url = "https://github.com/6D7377/SecurityCheck/releases/download/4.3.0.8/strings2.exe"; path = "C:\temp\dump\strings2.exe" }
+        @{url = "https://github.com/6D7377/SecurityCheck/releases/download/4.3.0.8/esedatabaseview.zip"; path = "C:\temp\dump\esedatabaseview.zip" }
+        @{url = "https://github.com/6D7377/SecurityCheck/releases/download/4.3.0.8/PECmd.zip"; path = "C:\temp\dump\PECmd.zip" }
+        @{url = "https://github.com/6D7377/SecurityCheck/releases/download/4.3.0.8/EvtxECmd.zip"; path = "C:\temp\dump\EvtxECmd.zip" }
+        @{url = "https://github.com/6D7377/SecurityCheck/releases/download/4.3.0.8/WxTCmd.zip"; path = "C:\temp\dump\WxTCmd.zip" }
+        @{url = "https://github.com/6D7377/SecurityCheck/releases/download/4.3.0.8/SBECmd.zip"; path = "C:\temp\dump\SBECmd.zip" }
+        @{url = "https://github.com/6D7377/SecurityCheck/releases/download/4.3.0.8/RECmd.zip"; path = "C:\temp\dump\RECmd.zip" }
+        @{url = "https://github.com/6D7377/SecurityCheck/releases/download/4.3.0.8/AppCompatCacheParser.zip"; path = "C:\temp\dump\AppCompatCacheParser.zip" }
     )
 
     $webClients = @()
